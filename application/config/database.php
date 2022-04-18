@@ -79,7 +79,7 @@ $db['default'] = array(
 	'username' => 'hospital_codearistos',
 	'password' => 'Ohmygod11$$',
 	'database' => 'hospital_database', 
-	'dbdriver' => 'mysqli',
+	'dbdriver' => 'mysql',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
