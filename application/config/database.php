@@ -75,10 +75,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost', 
-	'username' => 'codearistos_hmz',
-	'password' => 'multi-hms!!!!!',
-	'database' => 'codearistos_hmz', 
+	'hostname' => 'hospital.mysql.database.azure.com', 
+	'username' => 'hospital_codearistos',
+	'password' => 'Ohmygod11$$',
+	'database' => 'hospital_database', 
 	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
