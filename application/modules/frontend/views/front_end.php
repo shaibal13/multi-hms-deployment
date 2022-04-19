@@ -690,7 +690,7 @@
                         class="c-nav-logo w-nav-brand w--current w_current_width"><?php
                             if (!empty($settings->logo)) {
                                 if (file_exists($settings->logo)) {
-                                    echo '<img width="200" src=' . $settings->logo . '>';
+                                    echo '<img width="200" height="100" src=' . $settings->logo . '>';
                                 } else {
                                     echo $title[0] . '<span> ' . $title[1] . '</span>';
                                 }
@@ -767,7 +767,7 @@
                    class="c-nav-logo w-nav-brand w--current w_current_width"><?php
                        if (!empty($settings->logo)) {
                            if (file_exists($settings->logo)) {
-                               echo '<img width="200" src=' . $settings->logo . '>';
+                               echo '<img width="200" height="100" src=' . $settings->logo . '>';
                            } else {
                                echo $title[0] . '<span> ' . $title[1] . '</span>';
                            }
