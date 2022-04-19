@@ -70,16 +70,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | The $query_builder variables lets you determine whether or not to load
 | the query builder class.
 */
+//hospital.mysql.database.azure.com
 $active_group = 'default';
 $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'hospital.mysql.database.azure.com', 
+	'hostname' => 'localhost', 
 	'username' => 'hospital_codearistos',
 	'password' => 'Ohmygod11$$',
 	'database' => 'hospital_database', 
-	'dbdriver' => 'mysql',
+	'dbdriver' => 'mysqli',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
 	'db_debug' => (ENVIRONMENT !== 'production'),
