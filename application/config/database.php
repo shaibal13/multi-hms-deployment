@@ -76,7 +76,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'localhost', 
+	'hostname' => 'hospital.mysql.database.azure.com', 
 	'username' => 'hospital_codearistos',
 	'password' => 'Ohmygod11$$',
 	'database' => 'hospital_database', 
