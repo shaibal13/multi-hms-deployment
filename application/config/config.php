@@ -23,12 +23,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | a PHP script and you can easily do that on your own.
 |
 */
-if (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') {
+// if (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] != 'off') {
 
-    $ht = "https://";
-} else {
-	$ht = "http://";
-}
+//     $ht = "https://";
+// } else {
+// 	$ht = "http://";
+// }
+$ht = "https://";
 $config['base_url'] = $ht.$_SERVER['HTTP_HOST'];
 $config['base_url'] .= preg_replace('@/+$@','',dirname($_SERVER['SCRIPT_NAME'])).'/'; 
 
